@@ -35,3 +35,4 @@ gaze_target_log_*.csv
 /analysis/
 /figure/
 /pre_generate_data/data/
+/functions/data/
