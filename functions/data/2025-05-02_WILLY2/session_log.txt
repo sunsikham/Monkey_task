@@ -1,0 +1,17 @@
+TRIAL SUMMARY LOG
+Created: 02-May-2025 14:42:55
+
+
+--------------------------------------------------------------------------------
+Trial:  1
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.20 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.20 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial:  2
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.90 | Fish Caught: 1 | Reward Contribution: 0.15
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.90 | Fish Caught: 2 | Reward Contribution: 0.30
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------

@@ -1,0 +1,1 @@
+plot_accuracy_from_trials('/Volumes/yoolab01/yoolab_common/Competency Task/sunsik/Triangle/data/2025-12-18_WILLY')

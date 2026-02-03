@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# MATLAB / Psychtoolbox temp & cache
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.p
+
+# Experiment outputs / logs
+ptb_debug.log
+gaze_target_log_*.csv
+
+# Images and documents
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Data-heavy folders (generated)
+/data/
+/analysis/
+/figure/
+/pre_generate_data/data/

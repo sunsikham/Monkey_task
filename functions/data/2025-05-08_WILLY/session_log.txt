@@ -1,0 +1,1753 @@
+TRIAL SUMMARY LOG
+Created: 08-May-2025 11:43:56
+
+
+--------------------------------------------------------------------------------
+Trial:  3
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial:  4
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial:  5
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial:  6
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial:  9
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 10
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 2 | Total Reward Probability: 0.30 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 11
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 12
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 13
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 14
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 15
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 16
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 17
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 18
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 19
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 20
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 21
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 22
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 23
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 24
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 25
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 26
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 27
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 28
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 1 | Reward Contribution: 0.15
+| Total Fish Caught: 1 | Total Reward Probability: 0.15 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 29
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 30
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 31
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 32
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 33
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 34
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 35
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Total Fish Caught: 2 | Total Reward Probability: 0.30 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 36
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 37
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 38
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 39
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 40
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 41
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 42
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 43
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 44
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 45
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 46
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 47
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 48
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 49
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 50
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 51
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 52
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 53
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 54
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 55
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 56
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Total Fish Caught: 2 | Total Reward Probability: 0.30 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 57
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 58
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 59
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 60
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 61
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 62
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 63
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 64
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 65
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 66
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 67
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 68
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 69
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 70
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 71
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 72
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 73
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 74
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 75
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 76
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.15
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 77
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 78
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 79
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 80
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 81
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 82
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 83
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 84
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 85
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 86
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 87
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 88
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 89
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 90
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 91
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 92
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 93
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 94
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 95
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 96
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 97
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 98
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 99
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 100
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 101
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 102
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 103
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 104
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 105
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.15
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 106
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 107
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 108
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 109
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 110
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 111
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 112
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Total Fish Caught: 2 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 113
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 114
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 115
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 116
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 117
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 118
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 119
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 120
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 121
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 122
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 123
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 124
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 125
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 126
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.15
+| Total Fish Caught: 1 | Total Reward Probability: 0.15 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 127
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 128
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 129
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 130
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 131
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 132
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 133
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 134
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 135
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 136
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 137
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 138
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 139
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 140
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 141
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 142
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 143
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 144
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 145
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 146
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 147
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 148
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 149
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 150
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 151
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 152
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 1 | Reward Contribution: 0.15
+| Total Fish Caught: 1 | Total Reward Probability: 0.15 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 153
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 154
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 155
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 156
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 157
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 158
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 159
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 160
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 161
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 162
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 163
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 164
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.30
+| Total Fish Caught: 1 | Total Reward Probability: 0.30 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 165
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 166
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 167
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 168
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 169
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 170
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 171
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 172
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 173
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.15
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 174
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 1 | Reward Contribution: 0.15
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 1 | Total Reward Probability: 0.15 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 175
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 176
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 177
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 178
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 179
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 180
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 181
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 182
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 183
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 184
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 185
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 186
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 187
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 188
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 189
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 190
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 191
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 192
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 193
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 194
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 195
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 196
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 197
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 198
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 199
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 200
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 201
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.30
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 202
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 203
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 204
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 205
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 206
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 207
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 208
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 209
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 210
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 211
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Total Fish Caught: 2 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 212
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 213
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 214
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 215
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 216
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 217
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 218
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 219
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 220
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 221
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 222
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 223
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 224
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 225
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 226
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 227
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 228
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.15
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 229
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 230
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 231
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 232
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 233
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 234
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 235
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 236
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 237
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 238
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 239
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 240
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 241
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 242
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 243
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 244
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 245
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 246
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 1 | Reward Contribution: 0.30
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 247
+| Left Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 2 | Reward Contribution: 0.30
+| Total Fish Caught: 2 | Total Reward Probability: 0.30 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 248
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 249
+| Left Eel (RGB:[255,192,203]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[0,255,255]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 250
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 0 | Total Reward Probability: 0.00 | Rewarded: No
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 257
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.60
+| Total Fish Caught: 3 | Total Reward Probability: 0.60 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 258
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 259
+| Left Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Right Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Trial: 260
+| Left Eel (RGB:[0,255,255]): Reliability: 0.15 | Competency: 0.80 | Fish Caught: 3 | Reward Contribution: 0.45
+| Right Eel (RGB:[255,192,203]): Reliability: 0.30 | Competency: 0.05 | Fish Caught: 0 | Reward Contribution: 0.00
+| Total Fish Caught: 3 | Total Reward Probability: 0.45 | Rewarded: Yes
+--------------------------------------------------------------------------------
