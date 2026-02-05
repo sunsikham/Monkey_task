@@ -27,10 +27,17 @@ PsychDefaultSetup(2);
 AssertOpenGL;
 
 % ---------------- USER SETTINGS ----------------
-subjectScreen  = 2;
-operatorScreen = 1;
+subjectScreen  = 1;
+operatorScreen = 2;
 
-smallRect = [50 50 900 650];
+% Windowed rect uses global desktop coords; offset by operator screen origin.
+smallRectLocal = [50 50 900 650];
+try
+    opRect = Screen('GlobalRect', operatorScreen);
+catch
+    opRect = Screen('Rect', operatorScreen);
+end
+smallRect = smallRectLocal + [opRect(1) opRect(2) opRect(1) opRect(2)];
 
 showCrossBig   = true;
 showCrossSmall = true;
@@ -141,8 +148,8 @@ bigW = rectBig(3) - rectBig(1);
 bigH = rectBig(4) - rectBig(2);
 Screen('TextSize', winBig, 26);
 
-% Open SMALL
-[winSmall, rectSmall] = Screen('OpenWindow', operatorScreen, bgColor, smallRect);
+% Open SMALL (windowed on desktop)
+[winSmall, rectSmall] = Screen('OpenWindow', 0, bgColor, smallRect);
 Screen('BlendFunction', winSmall, GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 smallW = rectSmall(3) - rectSmall(1);
 smallH = rectSmall(4) - rectSmall(2);

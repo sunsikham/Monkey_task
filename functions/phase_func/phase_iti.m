@@ -40,9 +40,7 @@ function [curr_trial_data, game_opt, visual_opt] = phase_iti(curr_trial_data, vi
     all_eye_data(num_steps) = struct('eyeX', [], 'eyeY', [], 'pupSize', []);
     
     
-    if initial_ITI
-        [curr_trial_data, game_opt] = generate_eels_info(curr_trial_data, visual_opt, game_opt);
-    end
+    % Eel initialization removed for New_task (fish-only).
     %% Main ITI Loop
     while phase_onset
         loop_start_t = GetSecs();
@@ -65,7 +63,7 @@ function [curr_trial_data, game_opt, visual_opt] = phase_iti(curr_trial_data, vi
 
     %% Final Data Storage and Timing
     % Concatenate the position and eye data information
-    curr_trial_data = concatenate_pos_data(curr_trial_data, -1, -1, -1, all_eye_data, phase_str);
+    curr_trial_data = concatenate_pos_data(curr_trial_data, -1, -1, all_eye_data, phase_str);
     
     % Record the end time of the ITI phase and calculate the duration
     curr_trial_data.(sprintf('%s', phase_str)).phase_end = GetSecs();

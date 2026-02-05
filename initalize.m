@@ -34,16 +34,15 @@ function [visual_opt, device_opt, game_opt, eye_opt, save_directory] = initalize
 
     % Ensure the intended config directory has path precedence
     addpath(configDir, '-begin');
-    altConfigDir = fullfile(currentFolder, 'functions', 'monkey_configs');
-    if exist(altConfigDir, 'dir')
-        % Remove any shadowing monkey_configs folders (case/sep agnostic)
-        pathParts = strsplit(path, pathsep);
-        altSuffix = lower(fullfile('functions', 'monkey_configs'));
-        for i = 1:numel(pathParts)
-            p = pathParts{i};
-            if contains(lower(p), altSuffix)
-                rmpath(p);
-            end
+    % Remove any shadowing monkey_configs or pre_generate_data paths (case/sep agnostic)
+    pathParts = strsplit(path, pathsep);
+    altSuffix = lower(fullfile('functions', 'monkey_configs'));
+    preSuffix = lower('pre_generate_data');
+    for i = 1:numel(pathParts)
+        p = pathParts{i};
+        lp = lower(p);
+        if contains(lp, altSuffix) || contains(lp, preSuffix)
+            rmpath(p);
         end
     end
     
@@ -194,10 +193,6 @@ function createMonkeyConfig(configDir, monkey)
         '    % config.test = true;\n', ...
         '    % config.device.arduino_port = ''COM4'';\n', ...
         '    % config.visual.screen_number = 1;\n', ...
-        '    % config.game.eel_colors = [\n', ...
-        '    %     255, 0, 0;      % Red\n', ...
-        '    %     0, 255, 0       % Green\n', ...
-        '    % ];\n', ...
         'end\n'
     ];
     

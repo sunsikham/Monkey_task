@@ -16,20 +16,7 @@ function display_break_screen(visual_opt, device_opt, current_session, total_ses
     % Wait for keypress to continue
     KbStrokeWait;
     
-    % Recalibrate the eye tracker after the break if it's enabled
-    % Recalibrate the eye tracker after the break if it's enabled
-    if device_opt.EYELINK
-        % Reinitialize the EyeLink (if needed)
-        el = EyelinkInitDefaults(visual_opt.winPtr);  % Should already be initialized, but you can call it again if necessary
-
-        % Perform the calibration process
-        EyelinkDoTrackerSetup(el);  % This will trigger the calibration procedure
-
-        % Start recording (after calibration)
-        Eyelink('StartRecording');
-
-        disp('Eyelink has been recalibrated and recording has started!');
-    end
+    % Eye tracker recalibration after break is disabled.
 
     
     % Display the start screen for the next session

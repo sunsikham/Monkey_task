@@ -11,7 +11,7 @@ catch ME
     warning('PsychSound init failed: %s', ME.message);
 end
  
-manual_eyelink_calibration = false;
+manual_eyelink_calibration = true;
 if manual_eyelink_calibration
     Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY;
 end

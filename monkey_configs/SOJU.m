@@ -29,7 +29,6 @@ function config = SOJU()
     config.visual.corridor_color = [0, 0, 0]; % Black corridor
     config.visual.corridor_thickness = 50; % Thickness of corridor walls
     config.visual.gap_size = 500; % Gap size in corridor
-    config.visual.eel_rnd_range = 50; % Maximum random movement for eels
     config.visual.SQUARE_SIZE = 40; % Size of each square in pixels
     config.visual.GAP = 4; % Gap between squares
     config.visual.MARGIN = 100; % Margin from edges
@@ -38,13 +37,6 @@ function config = SOJU()
     config.visual.bonus_time_color = [0, 191, 255]; % Blue for bonus time
     config.visual.time_background_color = [100, 100, 100]; % Gray for empty bar
     config.visual.show_timer_from_start = true; % Show timer from the start
-    config.visual.visualize_pot = true; % Visualize eel potentials
-    config.visual.alpha = 0.9; % Transparency (0 to 1)
-    
-    % Game settings
-    config.game.premade_eels = false; % If true, load pre-made eels
-    config.game.eels_src = './pre_generate_data/data/copy_of_premade_trials';
-    config.game.reliability_interval = 0.15;
     
     %% GAME OPTS
     % Timing Parameters
@@ -60,48 +52,19 @@ function config = SOJU()
     config.game.short_reward_duration = 0.5; % Duration of short reward (seconds)
     config.game.reward_value = 1; % For humans
     
-    % Eel Configuration
-    config.game.use_only_initial_side = false; % If false, during choice and pursuit we use final (might be swapped)
-    config.game.swap_eels_prob = 0;      % Probability of swapping eels side
-    config.game.electrical_field = 250;    % Electrical field around the eel
-    config.game.competencies = [0.2, 0.999]; % Competency values for eels
-    
-    config.game.n_eels = 2;                % Number of eels in the game
-    config.game.eel_sz = 30;               % Size of eels (pixels)
-    config.game.eel_spd = 1;               % Speed of the eel (pixels/second)
-    
-    config.game.eel_colors = [
-            0, 0, 255;         % Color 1 (Default: Blue)
-            157, 0, 255        % Color 2 (Default: Purple)
-        ];
-    
-
-    
-    % Define fixed change limits for change in eel competency
-    config.game.min_increase = 0;          % The weaker eel can stay the same or increase
-    config.game.max_increase = 0.2;        % Maximum possible increase for the weaker eel
-    config.game.min_decrease = 0.2;        % Maximum possible decrease for the stronger eel
-    config.game.max_decrease = 0;          % The stronger eel can stay the same or decrease
-
-
     % Fish Configuration
     config.game.n_fishes = 6;              % Total number of fish
     config.game.n_fish_to_catch = 3;       % Maximum number of fish that can be caught
     config.game.fish_sz = 25;              % Size of fish (pixels)
-    config.game.fish_init_min_r = min(config.game.electrical_field) - config.game.eel_sz; % Minimum initialization distance
-    config.game.fish_init_max_r = max(config.game.electrical_field) + config.game.eel_sz; % Maximum initialization distance
+    config.game.fish_init_min_r = config.game.fish_sz * 2; % Minimum initialization distance
+    config.game.fish_init_max_r = config.game.fish_sz * 8; % Maximum initialization distance
     config.game.fast_spd = 17;             % Speed of the fish when moving quickly (pixels/second)
-    
-    % Gravitational pull parameters
-    config.game.R = 250; % Larger radius around eel
-    config.game.grav_strength = 0.2;       % Base strength for gravitational pull
     
     % Avatar avoidance parameters
     config.game.avatar_sigma = 30;         % Controls the sharpness of exponential repulsion
     config.game.avatar_repulsion_strength = 10; % Scaling factor for avatar repulsion
     
     % Weights for movement vectors
-    config.game.w_grav = 0.3;              % Weight for gravitational pull towards R
     config.game.w_avatar = 0.5;            % Weight for avatar avoidance (exponential)
     config.game.w_momentum = 0.6;          % Weight for maintaining previous direction
     config.game.w_avoidFish = 0.5;         % Weight for avoiding other fish

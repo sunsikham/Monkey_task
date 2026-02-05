@@ -1,4 +1,4 @@
-function data = concatenate_pos_data(data, avtr_pos, eel_pos, fish_pos, eye_pos, phase_str)
+function data = concatenate_pos_data(data, avtr_pos, fish_pos, eye_pos, phase_str)
     % Convert input strings to valid field names
     phase_str = matlab.lang.makeValidName(phase_str);
 
@@ -12,11 +12,7 @@ function data = concatenate_pos_data(data, avtr_pos, eel_pos, fish_pos, eye_pos,
         data.(phase_str).avtr_pos = avtr_pos;
     end
     
-    if nargin >= 3 && ~isequal(eel_pos, -1)
-        data.(phase_str).eel_pos = eel_pos;
-    end
-    
-    if nargin >= 4 && ~isequal(fish_pos, -1)
+    if nargin >= 3 && ~isequal(fish_pos, -1)
         data.(phase_str).fish_pos = fish_pos;
     end
     

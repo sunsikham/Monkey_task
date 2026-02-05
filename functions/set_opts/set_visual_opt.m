@@ -38,9 +38,9 @@ function visual_opt = set_visual_opt(monkey, monkey_config)
         visual_opt.screen_number = screen_number;
     end
 
-    % Force WILLY task display to screen 2 (PTB index)
+    % Force WILLY task display to screen 1 (PTB index)
     if strcmpi(monkey, 'WILLY')
-        screen_number = 2;
+        screen_number = 1;
         visual_opt.screen_number = screen_number;
     end
     
@@ -120,9 +120,6 @@ function visual_opt = initialize_default_visual_opt()
     visual_opt.gap_size = 200; % Gap size in corridor
 
     %% 4) Game Visual Elements
-    % Eel movement range
-    visual_opt.eel_rnd_range = 50; % Maximum random movement for eels
-
     % Score "battery" display
     visual_opt.SQUARE_SIZE = 40; % Size of each square in pixels
     visual_opt.GAP = 4; % Gap between squares
@@ -136,8 +133,6 @@ function visual_opt = initialize_default_visual_opt()
 
     %% 5) Debugging and Visualization Flags
     visual_opt.show_timer_from_start = true; % Show timer from the start
-    visual_opt.visualize_pot = true; % Visualize eel potentials
-    visual_opt.alpha = 0.7; % 0 to 1 where 0 is not visual and 1 is fully visual 
 end
 
 function [left_center, right_center] = calculateCorridorCenters(wWth, wHgt, corridor_thickness)

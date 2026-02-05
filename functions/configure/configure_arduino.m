@@ -7,8 +7,6 @@ function device_opt = configure_arduino(device_opt, monkey_config)
     else
         comPort = '';
     end
-    % Force COM8 for this setup
-    comPort = 'COM8';
     if isfield(monkey_config, 'device_activate_arduino')
         device_opt.activate_arduino = monkey_config.device_activate_arduino;
     else

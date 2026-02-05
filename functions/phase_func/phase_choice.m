@@ -368,7 +368,7 @@ curr_trial_data.(phase_str).phase_duration = ...
 curr_trial_data.(phase_str).final_avatar_pos = avtr_pos;
 
 curr_trial_data = concatenate_pos_data(curr_trial_data, ...
-    all_avatar_pos(1:valid_steps,:), -1, -1, final_eye_data, phase_str);
+    all_avatar_pos(1:valid_steps,:), -1, final_eye_data, phase_str);
 
 WaitSecs(0.5);
 
