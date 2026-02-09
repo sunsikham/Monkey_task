@@ -1,4 +1,4 @@
-function Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY
+function ok = Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY(varargin)
 % ============================================================
 % BIG subject screen (Screen 1): ONLY RED target shown
 % SMALL operator window (Screen 2): RED target + CYAN mapped gaze + GREEN smoothed gaze
@@ -19,8 +19,9 @@ function Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY
 %   Quit:              ESC / X
 % ============================================================
 
-clear; close all;
+ok = true;
 KbName('UnifyKeyNames');
+ListenChar(2);
 
 Screen('Preference','SkipSyncTests', 1);
 PsychDefaultSetup(2);
@@ -29,6 +30,32 @@ AssertOpenGL;
 % ---------------- USER SETTINGS ----------------
 subjectScreen  = 1;
 operatorScreen = 2;
+
+reuse_windows = false;
+visual_opt = [];
+eye_opt = [];
+device_opt = [];
+if nargin >= 1 && isstruct(varargin{1})
+    visual_opt = varargin{1};
+    reuse_windows = isfield(visual_opt, 'winPtr') && ~isempty(visual_opt.winPtr);
+end
+if nargin >= 2 && isstruct(varargin{2})
+    eye_opt = varargin{2};
+end
+if nargin >= 3 && isstruct(varargin{3})
+    device_opt = varargin{3};
+end
+
+if reuse_windows
+    try
+        subjectScreen = Screen('WindowScreenNumber', visual_opt.winPtr);
+    catch
+    end
+    if isfield(visual_opt, 'operator_screen') && ~isempty(visual_opt.operator_screen)
+        operatorScreen = visual_opt.operator_screen;
+    end
+end
+owns_windows = ~reuse_windows;
 
 % Windowed rect uses global desktop coords; offset by operator screen origin.
 smallRectLocal = [50 50 900 650];
@@ -72,18 +99,32 @@ stepBig    = 20;
 
 gainStep = 0.01;
 
-paramFile = 'gain_offset_params.mat';
+paramFile = get_gain_offset_param_path();
 
 logEveryNFrames = 1;
 % -----------------------------------------------------------
 
 % ---------- Manual reward (Arduino) ----------
 enableReward   = true;
-rewardDuration = 3; % seconds
+rewardDuration = 2; % seconds
 rewardPin      = 'D2';
 arduinoPort    = 'COM8';  % fixed port
 activateArduino = 1;  % 1: HIGH opens valve, 0: LOW opens valve
 % -----------------------------------------------------------
+if ~isempty(device_opt)
+    if isfield(device_opt, 'ARDUINO')
+        enableReward = logical(device_opt.ARDUINO);
+    end
+    if isfield(device_opt, 'rewardPin') && ~isempty(device_opt.rewardPin)
+        rewardPin = device_opt.rewardPin;
+    end
+    if isfield(device_opt, 'activate_arduino') && ~isempty(device_opt.activate_arduino)
+        activateArduino = device_opt.activate_arduino;
+    end
+    if isfield(device_opt, 'arduino_port') && ~isempty(device_opt.arduino_port)
+        arduinoPort = device_opt.arduino_port;
+    end
+end
 
 % ---------- Keycodes ----------
 KEY.ESC   = mustKey({'ESCAPE'});
@@ -119,19 +160,35 @@ KEY.LOAD = mustKey({'2','2@'});
 arduinoObj = [];
 if enableReward
     try
-        portList = serialportlist("available");
-        if isempty(portList)
-            disp('No available serial ports found. Manual reward disabled.');
-            enableReward = false;
+        useExisting = false;
+        if ~isempty(device_opt) && isfield(device_opt, 'arduino') && ~isempty(device_opt.arduino)
+            try
+                useExisting = isvalid(device_opt.arduino);
+            catch
+                useExisting = true;
+            end
+        end
+
+        if useExisting
+            arduinoObj = device_opt.arduino;
+            configurePin(arduinoObj, rewardPin, 'DigitalOutput');
+            writeDigitalPin(arduinoObj, rewardPin, ~activateArduino);
+            disp('Using existing Arduino object for manual reward.');
         else
-            if ~ismember(arduinoPort, portList)
-                fprintf('Configured COM port "%s" not available. Manual reward disabled.\n', arduinoPort);
+            portList = serialportlist("available");
+            if isempty(portList)
+                disp('No available serial ports found. Manual reward disabled.');
                 enableReward = false;
             else
-                arduinoObj = arduino(arduinoPort, 'Uno');
-                configurePin(arduinoObj, rewardPin, 'DigitalOutput');
-                writeDigitalPin(arduinoObj, rewardPin, ~activateArduino);
-                fprintf('Arduino connected on %s for manual reward.\n', arduinoPort);
+                if ~ismember(arduinoPort, portList)
+                    fprintf('Configured COM port "%s" not available. Manual reward disabled.\n', arduinoPort);
+                    enableReward = false;
+                else
+                    arduinoObj = arduino(arduinoPort, 'Uno');
+                    configurePin(arduinoObj, rewardPin, 'DigitalOutput');
+                    writeDigitalPin(arduinoObj, rewardPin, ~activateArduino);
+                    fprintf('Arduino connected on %s for manual reward.\n', arduinoPort);
+                end
             end
         end
     catch ME
@@ -142,26 +199,39 @@ end
 % --------------------------------------------------
 
 % Open BIG
-[winBig, rectBig] = Screen('OpenWindow', subjectScreen, bgColor);
+if reuse_windows
+    winBig = visual_opt.winPtr;
+    rectBig = Screen('Rect', winBig);
+else
+    [winBig, rectBig] = Screen('OpenWindow', subjectScreen, bgColor);
+end
 Screen('BlendFunction', winBig, GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 bigW = rectBig(3) - rectBig(1);
 bigH = rectBig(4) - rectBig(2);
 Screen('TextSize', winBig, 26);
 
 % Open SMALL (windowed on desktop)
-[winSmall, rectSmall] = Screen('OpenWindow', 0, bgColor, smallRect);
+if reuse_windows && isfield(visual_opt, 'op_winPtr') && ~isempty(visual_opt.op_winPtr)
+    winSmall = visual_opt.op_winPtr;
+    rectSmall = Screen('Rect', winSmall);
+else
+    [winSmall, rectSmall] = Screen('OpenWindow', 0, bgColor, smallRect);
+end
 Screen('BlendFunction', winSmall, GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 smallW = rectSmall(3) - rectSmall(1);
 smallH = rectSmall(4) - rectSmall(2);
 Screen('TextSize', winSmall, 18);
 
-HideCursor(operatorScreen);
+ShowCursor('Arrow');
 
 % ---------------- Create log file ----------------
 logName = sprintf('gaze_target_log_%s.csv', datestr(now,'yyyymmdd_HHMMSS'));
 fid = fopen(logName, 'w');
 if fid < 0
-    sca; error('Could not open log file for writing.');
+    if owns_windows
+        sca;
+    end
+    error('Could not open log file for writing.');
 end
 fprintf(fid, 'tSec,targX,targY,rawX,rawY,mapX,mapY,smoothX,smoothY,isValid,whichEye,gx,gy,ox,oy,flipX,flipY\n');
 
@@ -169,7 +239,9 @@ fprintf(fid, 'tSec,targX,targY,rawX,rawY,mapX,mapY,smoothX,smoothY,isValid,which
 status = Eyelink('Initialize');
 if status ~= 0
     fclose(fid);
-    sca;
+    if owns_windows
+        sca;
+    end
     error('Eyelink Initialize failed. Check Ethernet/link/Host state.');
 end
 
@@ -185,7 +257,9 @@ err = Eyelink('StartRecording', 0, 0, 1, 1);
 if err ~= 0
     try Eyelink('Shutdown'); catch, end
     fclose(fid);
-    sca;
+    if owns_windows
+        sca;
+    end
     error('StartRecording failed (err=%d). Check tracker streaming/mode.', err);
 end
 WaitSecs(0.1);
@@ -194,13 +268,18 @@ smoothXY   = [NaN; NaN];
 lastMapped = [NaN; NaN];
 frameCount = 0;
 rWasDown   = false;
+rewardActive = false;
+rewardEndTime = 0;
 
 try
     while true
         frameCount = frameCount + 1;
 
         % ---- Target from mouse in SMALL window -> BIG coords ----
-        [mxWin, myWin] = GetMouse(winSmall);
+        % Use global mouse position so cursor can move outside the small window.
+        [mxGlobal, myGlobal] = GetMouse(0);
+        mxWin = mxGlobal - smallRect(1);
+        myWin = myGlobal - smallRect(2);
         mxWin = min(max(mxWin, 0), smallW-1);
         myWin = min(max(myWin, 0), smallH-1);
 
@@ -210,20 +289,21 @@ try
 
         % ---- Keys ----
         [kd,~,kc] = KbCheck;
+        rDown = kd && kc(KEY.R);
         if kd
             if kc(KEY.ESC) || kc(KEY.X), break; end
-            rDown = kc(KEY.R);
             if rDown && ~rWasDown
                 if enableReward && ~isempty(arduinoObj)
-                    writeDigitalPin(arduinoObj, rewardPin, activateArduino);
-                    WaitSecs(rewardDuration);
-                    writeDigitalPin(arduinoObj, rewardPin, ~activateArduino);
-                    fprintf('Manual reward delivered (%.2f s).\n', rewardDuration);
+                    if ~rewardActive
+                        writeDigitalPin(arduinoObj, rewardPin, activateArduino);
+                    end
+                    rewardActive = true;
+                    rewardEndTime = GetSecs + rewardDuration;
+                    fprintf('Manual reward started (%.2f s).\n', rewardDuration);
                 else
                     disp('Manual reward requested, but Arduino is not active.');
                 end
             end
-            rWasDown = rDown;
 
             step = stepNormal;
             if (KEY.LSHFT>0 && kc(KEY.LSHFT)) || (KEY.RSHFT>0 && kc(KEY.RSHFT))
@@ -282,6 +362,15 @@ try
                 end
                 WaitSecs(0.15);
             end
+        end
+        rWasDown = rDown;
+
+        if rewardActive && GetSecs >= rewardEndTime
+            try
+                writeDigitalPin(arduinoObj, rewardPin, ~activateArduino);
+            catch
+            end
+            rewardActive = false;
         end
 
         % ---- Read EyeLink gaze ----
@@ -406,26 +495,54 @@ try
 
         Screen('Flip', winSmall);
     end
+    % Auto-save latest calibration params on exit
+    try
+        save(paramFile, 'gx','gy','ox','oy','flipX','flipY');
+    catch
+    end
 
 catch ME
-    try Eyelink('StopRecording'); catch, end
-    try Eyelink('Shutdown'); catch, end
+    if owns_windows
+        try Eyelink('StopRecording'); catch, end
+        try Eyelink('Shutdown'); catch, end
+    end
     try fclose(fid); catch, end
     if ~isempty(arduinoObj)
         try writeDigitalPin(arduinoObj, rewardPin, ~activateArduino); catch, end
         try clear arduinoObj; catch, end
     end
-    ShowCursor; sca; rethrow(ME);
+    ListenChar(0);
+    ShowCursor;
+    if owns_windows
+        sca;
+    end
+    % Auto-save latest params on error if possible
+    try
+        save(paramFile, 'gx','gy','ox','oy','flipX','flipY');
+    catch
+    end
+    ok = false;
+    rethrow(ME);
 end
 
-try Eyelink('StopRecording'); catch, end
-try Eyelink('Shutdown'); catch, end
+if owns_windows
+    try Eyelink('StopRecording'); catch, end
+    try Eyelink('Shutdown'); catch, end
+end
+try
+    save(paramFile, 'gx','gy','ox','oy','flipX','flipY');
+catch
+end
 try fclose(fid); catch, end
 if ~isempty(arduinoObj)
     try writeDigitalPin(arduinoObj, rewardPin, ~activateArduino); catch, end
     try clear arduinoObj; catch, end
 end
-ShowCursor; sca;
+ListenChar(0);
+ShowCursor;
+if owns_windows
+    sca;
+end
 
 fprintf('Closed. Log saved: %s\n', logName);
 fprintf('Calibration exited. You can continue to the task.\n');
@@ -466,4 +583,13 @@ code = maybeKey(names);
 if code == 0
     error('Could not resolve keycode for any of: %s', strjoin(names, ', '));
 end
+end
+
+function paramFile = get_gain_offset_param_path()
+    % Use a fixed path relative to the project root (where initalize.m lives).
+    baseDir = fileparts(which('initalize'));
+    if isempty(baseDir)
+        baseDir = pwd;
+    end
+    paramFile = fullfile(baseDir, 'gain_offset_params.mat');
 end

@@ -1,23 +1,26 @@
+function New_task(visual_opt, device_opt, game_opt, eye_opt, save_directory)
 %% if you want to change the triangle number go line 31 the maximum number is now 6
 %  if you want to change initial number of fish, go phase choice and check line 56 
 % if you want to change reward amount, go display_score check line 136
 
-clear all
+use_external_opts = (nargin >= 5);
 
-% Initialize PsychPortAudio once (safe even if audio is not used)
-try
-    InitializePsychSound(1);
-catch ME
-    warning('PsychSound init failed: %s', ME.message);
-end
- 
-manual_eyelink_calibration = true;
-if manual_eyelink_calibration
-    Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY;
-end
-% 1. 모든 설정을 초기화하여 visual_opt, device_opt 등의 변수를 생성합니다.
-[visual_opt, device_opt, game_opt, eye_opt, save_directory] = initalize(manual_eyelink_calibration);
+if ~use_external_opts
+    clear all
+    % Initialize PsychPortAudio once (safe even if audio is not used)
+    try
+        InitializePsychSound(1);
+    catch ME
+        warning('PsychSound init failed: %s', ME.message);
+    end
 
+    manual_eyelink_calibration = false;
+    if manual_eyelink_calibration
+        Eyelink_BigOnScreen1_SmallOnScreen2_GainOffset_WASD_LOG_FlipXY;
+    end
+    % 1. 모든 설정을 초기화하여 visual_opt, device_opt 등의 변수를 생성합니다.
+    [visual_opt, device_opt, game_opt, eye_opt, save_directory] = initalize(manual_eyelink_calibration);
+end
 % 2. 이제 device_opt가 존재하므로, 여기에 logFileID를 안전하게 추가합니다.
 visual_opt.color_fish = [128 128 128];
 
@@ -26,6 +29,11 @@ visual_opt.winPtr = ptb_get_winptr(visual_opt, true);
 visual_opt.refresh_rate = Screen('NominalFrameRate', visual_opt.winPtr);
 [visual_opt.wWth, visual_opt.wHgt] = Screen('WindowSize', visual_opt.winPtr);
 visual_opt.screen_center = [visual_opt.wWth / 2, visual_opt.wHgt / 2];
+visual_opt.subject_winRect = [0 0 visual_opt.wWth visual_opt.wHgt];
+
+% Open operator window for live gaze (non-blocking)
+visual_opt.subject_size = [visual_opt.wWth, visual_opt.wHgt];
+visual_opt = open_operator_window(visual_opt);
 
 % 변수 조정 
 game_opt.avatar_speed=12;

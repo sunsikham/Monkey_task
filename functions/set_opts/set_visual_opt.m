@@ -1,4 +1,4 @@
-function visual_opt = set_visual_opt(monkey, monkey_config)
+function visual_opt = set_visual_opt(monkey, monkey_config, varargin)
     % SET_VISUAL_OPT - Configures visual options for the experiment.
     %
     % Inputs:
@@ -7,6 +7,11 @@ function visual_opt = set_visual_opt(monkey, monkey_config)
     %
     % Output:
     %   visual_opt - Struct containing all visual configuration parameters.
+
+    open_window = true;
+    if nargin >= 3 && islogical(varargin{1})
+        open_window = varargin{1};
+    end
 
     % Initialize default visual options
     visual_opt = initialize_default_visual_opt();
@@ -23,7 +28,9 @@ function visual_opt = set_visual_opt(monkey, monkey_config)
     end
     
     %% 2) Monitor and Window Setup
-    Screen('Preference', 'SkipSyncTests', 1); % Skip sync tests for faster setup
+    if open_window
+        Screen('Preference', 'SkipSyncTests', 1); % Skip sync tests for faster setup
+    end
 
     % Determine which screen to use based on configuration
     if isfield(visual_opt, 'screen_number')
@@ -44,14 +51,36 @@ function visual_opt = set_visual_opt(monkey, monkey_config)
         visual_opt.screen_number = screen_number;
     end
     
-    % Open window and get properties
-    [visual_opt.winPtr, ~] = Screen('OpenWindow', screen_number, visual_opt.screen_color);
-    visual_opt.refresh_rate = Screen('NominalFrameRate', visual_opt.winPtr);
-    fprintf('Monitor refresh rate: %.2f Hz\n', visual_opt.refresh_rate);
+    if open_window
+        % Open window and get properties
+        [visual_opt.winPtr, ~] = Screen('OpenWindow', screen_number, visual_opt.screen_color);
+        visual_opt.refresh_rate = Screen('NominalFrameRate', visual_opt.winPtr);
+        fprintf('Monitor refresh rate: %.2f Hz\n', visual_opt.refresh_rate);
 
-    % Store window dimensions and center
-    [visual_opt.wWth, visual_opt.wHgt] = Screen('WindowSize', visual_opt.winPtr);
-    visual_opt.screen_center = [visual_opt.wWth / 2, visual_opt.wHgt / 2];
+        % Store window dimensions and center
+        [visual_opt.wWth, visual_opt.wHgt] = Screen('WindowSize', visual_opt.winPtr);
+        visual_opt.screen_center = [visual_opt.wWth / 2, visual_opt.wHgt / 2];
+    else
+        visual_opt.winPtr = [];
+        visual_opt.refresh_rate = [];
+        visual_opt.wWth = [];
+        visual_opt.wHgt = [];
+        visual_opt.screen_center = [];
+    end
+
+    % Operator screen (for live gaze window)
+    if ~isfield(visual_opt, 'operator_screen')
+        screens = Screen('Screens');
+        screens = screens(screens ~= 0);
+        other = screens(screens ~= visual_opt.screen_number);
+        if ~isempty(other)
+            visual_opt.operator_screen = other(1);
+        end
+    end
+
+    if ~open_window
+        return;
+    end
 
     %% 3) Corridor and Game Boundaries
     % Corridor properties

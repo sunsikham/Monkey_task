@@ -6,9 +6,14 @@ function [visual_opt, device_opt, game_opt, eye_opt, save_directory] = initalize
     clearvars -except varargin;
 
     skip_eyelink_setup = false;
+    mode = '';
     if nargin >= 1
         skip_eyelink_setup = logical(varargin{1});
     end
+    if nargin >= 2
+        mode = varargin{2};
+    end
+    config_only = ischar(mode) && strcmpi(mode, 'config_only');
         
     %% 1) Add all subdirectory;
     % Get the directory where this m-file is located
@@ -137,15 +142,23 @@ function [visual_opt, device_opt, game_opt, eye_opt, save_directory] = initalize
     
     %% 2) Set visual_opt, game_opt, device_opt
     device_opt = set_device_opt(monkey, monkey_config.test, monkey_config);
-    visual_opt = set_visual_opt(monkey, monkey_config);
+    if config_only
+        visual_opt = set_visual_opt(monkey, monkey_config, false);
+    else
+        visual_opt = set_visual_opt(monkey, monkey_config);
+    end
     game_opt = set_game_opt(monkey_config);
 
     %% 3) Eyelink related.
-    
-    eye_opt = set_eyelink(visual_opt, monkey_config, device_opt, skip_eyelink_setup);
+    if config_only
+        eye_opt.eye_side = 1;
+        eye_opt.eyelink_on = isfield(monkey_config, 'device') && isfield(monkey_config.device, 'EYELINK') && monkey_config.device.EYELINK;
+    else
+        eye_opt = set_eyelink(visual_opt, monkey_config, device_opt, skip_eyelink_setup);
+    end
 
     %temporary
-    if eye_opt.eyelink_on
+    if eye_opt.eyelink_on && ~config_only
         try
             if Eyelink('IsConnected') > 0
                 disp('Testing gaze samples for 2 seconds...');

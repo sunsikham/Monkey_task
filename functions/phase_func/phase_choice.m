@@ -83,6 +83,8 @@ all_eye_data(num_steps) = struct('eyeX',[],'eyeY',[],'pupSize',[]);
 %% 3. CHOICE 메인 루프
 choice_on = true;
 t_step    = 1;
+op_frame  = 0;
+op_update_every = 3;
 
 render_map_from_layout1(visual_opt, layout, [0 0 255]);
 draw_fishes(fish_curr_pos, visual_opt.color_fish, ...
@@ -128,6 +130,12 @@ while choice_on
         all_avatar_pos(t_step,:) = avtr_pos;
     end
     Screen('Flip', visual_opt.winPtr);
+
+    % Operator gaze window (throttled)
+    op_frame = op_frame + 1;
+    if mod(op_frame, op_update_every) == 0
+        draw_operator_scene(visual_opt, eye_opt, layout, 'choice', [0 0 255]);
+    end
 
     % 3-4. 눈 데이터 저장
     eye_data = sample_eyes(eye_opt);

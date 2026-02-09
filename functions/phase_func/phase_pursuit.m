@@ -41,6 +41,8 @@ function curr_trial_data = phase_pursuit(curr_trial_data, visual_opt, ...
     t_step     = 1;
     pursuit_on = true;
     inside_top = false; 
+    op_frame   = 0;
+    op_update_every = 3;
     while pursuit_on
         frame_start = GetSecs();
 
@@ -99,6 +101,12 @@ function curr_trial_data = phase_pursuit(curr_trial_data, visual_opt, ...
         draw_fishes(fish_curr_pos, curr_trial_data.color, game_opt.fish_sz, visual_opt.winPtr);
         draw_avatar(avtr_pos, [255 255 0], game_opt.avatar_sz, visual_opt.winPtr);
         Screen('Flip', visual_opt.winPtr);
+
+        % Operator gaze window (throttled)
+        op_frame = op_frame + 1;
+        if mod(op_frame, op_update_every) == 0
+            draw_operator_scene(visual_opt, eye_opt, layout, 'pursuit', game_opt, curr_trial_data);
+        end
 
 
         % --- 종료 조건 ---

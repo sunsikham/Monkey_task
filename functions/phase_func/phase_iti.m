@@ -36,6 +36,8 @@ function [curr_trial_data, game_opt, visual_opt] = phase_iti(curr_trial_data, vi
     % Setup timing variables for the ITI phase loop
     phase_onset = true;
     t_step = 0;
+    op_frame = 0;
+    op_update_every = 3;
     num_steps = round(visual_opt.refresh_rate * game_opt.ITI_time);
     all_eye_data(num_steps) = struct('eyeX', [], 'eyeY', [], 'pupSize', []);
     
@@ -51,6 +53,11 @@ function [curr_trial_data, game_opt, visual_opt] = phase_iti(curr_trial_data, vi
         all_eye_data(t_step).eyeX = eye_data.eyeX;
         all_eye_data(t_step).eyeY = eye_data.eyeY;
         all_eye_data(t_step).pupSize = eye_data.eyePupSz;
+
+        op_frame = op_frame + 1;
+        if mod(op_frame, op_update_every) == 0
+            draw_operator_gaze(visual_opt, eye_opt);
+        end
         
         % Enforce timing control based on the refresh rate and buffer time
         check_duration(loop_start_t, 1/visual_opt.refresh_rate - game_opt.buffer_t, device_opt.min_t_scale);
