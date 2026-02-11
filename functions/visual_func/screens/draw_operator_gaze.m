@@ -136,5 +136,5 @@ function paramFile = get_gain_offset_param_path()
     if isempty(baseDir)
         baseDir = pwd;
     end
-    paramFile = fullfile(baseDir, 'gain_offset_params.mat');
+    paramFile = fullfile(baseDir, 'logs', 'calibration', 'gain_offset_params.mat');
 end

@@ -121,13 +121,18 @@ while trial_onset && prev_trial_idx < total_trials
     
     
    
-    pairs    = { [2,5],[1 4]};
+    pairs    = { [2,5],[1 4],[3 6]};
     idx      = randi(numel(pairs));
     base_pair = pairs{idx};   
     
 
-    [n_rects, state] = pick_n_rects_block(base_pair, [2,4], state, last_correct);
-    %[n_rects, state] = pick_n_rects_random(base_pair, 2, state);
+    use_random_side = true;
+    max_consecutive = 3;
+    if use_random_side
+        [n_rects, state] = pick_n_rects_random(base_pair, max_consecutive, state);
+    else
+        [n_rects, state] = pick_n_rects_block(base_pair, [2,4], state, last_correct);
+    end
 
     [curr_trial_data, game_opt, visual_opt] = phase_iti(curr_trial_data, visual_opt, game_opt, eye_opt, device_opt, true, 'ITI1');
    

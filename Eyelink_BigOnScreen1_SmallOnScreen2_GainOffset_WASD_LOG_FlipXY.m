@@ -225,7 +225,7 @@ Screen('TextSize', winSmall, 18);
 ShowCursor('Arrow');
 
 % ---------------- Create log file ----------------
-logName = sprintf('gaze_target_log_%s.csv', datestr(now,'yyyymmdd_HHMMSS'));
+logName = get_gaze_target_log_path(device_opt);
 fid = fopen(logName, 'w');
 if fid < 0
     if owns_windows
@@ -247,8 +247,19 @@ end
 
 EyelinkInitDefaults(winBig);
 
-Eyelink('Command', 'screen_pixel_coords = %d %d %d %d', 0, 0, bigW-1, bigH-1);
-Eyelink('Message', 'DISPLAY_COORDS %d %d %d %d', 0, 0, bigW-1, bigH-1);
+if Eyelink('IsConnected') <= 0
+    try Eyelink('Shutdown'); catch, end
+    fclose(fid);
+    if owns_windows
+        sca;
+    end
+    error('Eyelink is not connected. Check tracker link/host state.');
+end
+
+cmd = sprintf('screen_pixel_coords = %d %d %d %d', 0, 0, round(bigW-1), round(bigH-1));
+msg = sprintf('DISPLAY_COORDS %d %d %d %d', 0, 0, round(bigW-1), round(bigH-1));
+Eyelink('Command', cmd);
+Eyelink('Message', msg);
 
 Eyelink('Command', 'link_sample_data = LEFT,RIGHT,GAZE,GAZERES,AREA,STATUS');
 Eyelink('Command', 'link_event_filter = LEFT,RIGHT,FIXATION,SACCADE,BLINK,BUTTON,MESSAGE');
@@ -591,5 +602,52 @@ function paramFile = get_gain_offset_param_path()
     if isempty(baseDir)
         baseDir = pwd;
     end
-    paramFile = fullfile(baseDir, 'gain_offset_params.mat');
+    calibDir = fullfile(baseDir, 'logs', 'calibration');
+    if ~exist(calibDir, 'dir')
+        mkdir(calibDir);
+    end
+    paramFile = fullfile(calibDir, 'gain_offset_params.mat');
+end
+
+function logPath = get_gaze_target_log_path(device_opt)
+    baseDir = fileparts(which('initalize'));
+    if isempty(baseDir)
+        baseDir = pwd;
+    end
+
+    dateDir = fullfile(baseDir, 'logs', 'gaze_target', datestr(now, 'yyyy-mm-dd'));
+    if ~exist(dateDir, 'dir')
+        mkdir(dateDir);
+    end
+
+    prefix = get_log_prefix(device_opt);
+    stamp = datestr(now, 'yyyymmdd_HHMMSS');
+    if isempty(prefix)
+        fileName = sprintf('gaze_target_log_%s.csv', stamp);
+    else
+        fileName = sprintf('%s_gaze_target_log_%s.csv', prefix, stamp);
+    end
+    logPath = fullfile(dateDir, fileName);
+end
+
+function prefix = get_log_prefix(device_opt)
+    prefix = '';
+    if isempty(device_opt) || ~isstruct(device_opt)
+        return;
+    end
+
+    candidateFields = {'session_prefix', 'monkey_name', 'monkey', 'subject', 'id'};
+    for i = 1:numel(candidateFields)
+        fname = candidateFields{i};
+        if isfield(device_opt, fname)
+            value = device_opt.(fname);
+            if isstring(value)
+                value = char(value);
+            end
+            if ischar(value) && ~isempty(strtrim(value))
+                prefix = regexprep(strtrim(value), '[^A-Za-z0-9_-]', '_');
+                return;
+            end
+        end
+    end
 end
